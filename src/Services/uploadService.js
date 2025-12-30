@@ -1,5 +1,4 @@
 import api from '@/lib/api';
-
 class UploadService {
   // Upload profile image
   static async uploadProfileImage(formData) {

@@ -1,5 +1,4 @@
 import api from '@/lib/api';
-
 class ReportService {
   // Create suspicious report
   static async createReport(data) {

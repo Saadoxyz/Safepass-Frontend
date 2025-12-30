@@ -1,6 +1,5 @@
 // src/Services/departmentService.js
 import api from '@/lib/api';
-
 class DepartmentService {
   static async getAllDepartments() {
     try {

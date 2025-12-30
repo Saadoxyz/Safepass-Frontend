@@ -1,5 +1,4 @@
 import api from '@/lib/api';
-
 class GatePassService {
   // Get gate pass by number
   static async getGatePassByNumber(gatePassNumber) {

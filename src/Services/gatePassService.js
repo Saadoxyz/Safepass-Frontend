@@ -10,7 +10,6 @@ class GatePassService {
     }
   }
 
-  // Download gate pass PDF
   static async downloadGatePass(gatePassNumber) {
     try {
       const response = await api.get(`/gate-passes/${gatePassNumber}/download`, {

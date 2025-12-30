@@ -1,5 +1,4 @@
 import api from '@/lib/api';
-
 class AuthService {
   // Login user
   static async login(credentials) {
